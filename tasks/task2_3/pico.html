@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark">
+    </head>
+    <body>
+        <main class="container">
+            <h1>HELLO WORLD!</h1>
+            <p>This is an example of a paragraph with different <em>emphasis</em> 
+            with some <strong>strong emphasis</strong> to the text</p>
+            <h2>This is a list!</h2>
+                <ol start="3">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            <p>COMP2850 ktor web developmet goes through the <a href="https://comp2850.github.io/ktor-guide/">Ktor guide</a> for study</p>
+                
+                <form action="https://httpbin.io/dump/request" method="POST">
+        <p>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name">
+        </p>
+        <p>
+        <label for="em">Enter your email:</label>
+        <input type="email" id="em" name="email">
+        </p>
+        <p>
+        <label for="date">Enter your date of birth:</label>
+        <input type="date" name="date" id="date">
+        </p>
+        <p>
+        <label for="color">Enter your favourite colour:</label>
+        <input type="color" name="color" id="color">
+        </p>
+        <p>Are you student or staff</p>
+        <ul>
+            <li>
+                <label for="student">Student</label>
+                <input type="radio" id="student" name="stuStaff" value="student" checked>
+            </li>
+            <li>
+                <label for="staff">Staff</label>
+                <input type="radio" id="staff" name="stuStaff" value="staff">
+            </li>
+        </ul>
+        <p>
+        <button>Submit</button>
+        </p>
+        </main>
+    </body>
